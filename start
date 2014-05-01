@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Script Banner
+echo "..........................................................."
+echo "Starting Server on "`date`
+echo "..........................................................."
+
+./node_modules/hapi/bin/hapi -c ./config.json
+
