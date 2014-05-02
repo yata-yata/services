@@ -1,0 +1,30 @@
+{
+  "servers": [
+    {
+      "port": 8000,
+      "options": {
+        "labels": ["http"]
+      }
+    },
+    {
+      "port": 8001,
+      "options": {
+        "labels": ["api"],
+        "cors": true
+      }
+    }
+  ],
+  "plugins": {
+    "good": {
+      "gcDetection": true,
+      "opsInterval": 30000,
+      "subscribers": {
+        "console": ["request", "log", "ops", "error"]
+      }
+    },
+    "lout": {},
+    "tv": {},
+    "todo": {}
+  }
+}
+
