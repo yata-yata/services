@@ -3,14 +3,7 @@
     {
       "port": 8000,
       "options": {
-        "labels": ["http"]
-      }
-    },
-    {
-      "port": 8001,
-      "options": {
-        "labels": ["api"],
-        "cors": true
+        "labels": ["http", "api"]
       }
     }
   ],
