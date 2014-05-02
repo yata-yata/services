@@ -4,12 +4,12 @@ var Hapi = require('hapi'),
     composer;
 
 // TODO: Figure something better than this
-manifest.servers[0].port = ;
+manifest.servers[0].port = port;
 
 composer = new Hapi.Composer(manifest);
 
 composer.compose(function() {
     composer.start(function() {
-        console.log("Servers started");
+        console.log("Server started on port " + port);
     });
 });
