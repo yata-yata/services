@@ -3,7 +3,13 @@
     {
       "port": 8000,
       "options": {
-        "labels": ["http", "api"]
+        "labels": ["http"]
+      }
+    },
+    {
+      "port": 8001,
+      "options": {
+        "labels": ["api"]
       }
     }
   ],
