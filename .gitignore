@@ -26,3 +26,8 @@ node_modules
 
 # Env
 .env
+
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+
