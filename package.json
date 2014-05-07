@@ -12,6 +12,9 @@
     "joi": "^3.1.0",
     "lout": "^3.1.0",
     "good": "^2.0.0",
-    "todo": "git+https://github.com/yata-yata/todo.git"
+    "todo": "git+https://github.com/yata-yata/todo.git",
+    "auth": "git+https://github.com/yata-yata/auth.git",
+    "travelogue": "git+ssh://git@github.com:yata-yata/travelogue.git#hapi4",
+    "yar": "^2.1.0"
   }
 }
