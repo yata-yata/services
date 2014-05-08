@@ -23,7 +23,6 @@
     },
     "lout": {},
     "tv": {},
-    "todo": {},
     "yar": {
       "cookieOptions": {
         "password": "yata-yata",
@@ -36,7 +35,9 @@
         "realm": "http://localhost:8000/",
         "returnURL": "http://localhost:8000/auth/google/return"
       }
-    }
+    },
+    "todo": {},
+    "ui": {}
   }
 }
 

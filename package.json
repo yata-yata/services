@@ -14,6 +14,7 @@
     "good": "^2.0.0",
     "todo": "git+https://github.com/yata-yata/todo.git",
     "auth": "git+https://github.com/yata-yata/auth.git",
+    "ui": "git+https://github.com/yata-yata/ui.git",
     "travelogue": "git+ssh://git@github.com:spumko/travelogue.git",
     "yar": "^2.1.0"
   }
