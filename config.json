@@ -30,6 +30,7 @@
       }
     },
     "travelogue": {},
+    "hapi-auth-hawk": {},
     "auth": {
       "google": {
         "realm": "http://localhost:8000/",
@@ -37,7 +38,9 @@
       }
     },
     "todo": {},
-    "ui": {}
+    "ui": {
+        "serviceUri": "http://localhost:8001"
+    }
   }
 }
 
