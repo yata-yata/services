@@ -30,14 +30,17 @@
       }
     },
     "travelogue": {},
+    "hapi-auth-hawk": {},
     "auth": {
       "google": {
         "realm": "http://localhost:8000/",
-        "returnURL": "http://localhost:8000/auth/google/return"
+        "callbackUrl": "http://localhost:8000/auth/google/callback"
       }
     },
     "todo": {},
-    "ui": {}
+    "ui": {
+        "serviceUri": "http://localhost:8001"
+    }
   }
 }
 
