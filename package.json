@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "",
   "license": "MIT",
+  "scripts": {
+      "start": "nf start"
+  },
   "dependencies": {
     "hapi": "^4.1.0",
     "tv": "^1.1.1",
