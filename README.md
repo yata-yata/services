@@ -1,7 +1,6 @@
 Yet Another Todo App
 ====================
 [![Dependency Status](https://david-dm.org/yata-yata/services.png?theme=shields.io)](https://david-dm.org/yata-yata/services)
-[![devDependency Status](https://david-dm.org/giakki/yata-yata/services.png?theme=shields.io)](https://david-dm.org/yata-yata/services#info=devDependencies)
 A ridiculously over engineered todo app using:
 
 - [Hapi](https://github.com/spumko/hapi) - Services and content server
