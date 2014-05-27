@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "auth": "git+https://github.com/yata-yata/auth.git",
+    "crumb": ">=2.1.0",
     "foreman": ">=0.3.0",
     "forever": ">=0.11.1",
     "good": ">=2.0.0",

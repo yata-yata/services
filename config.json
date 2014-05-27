@@ -23,6 +23,9 @@
     },
     "lout": {},
     "tv": {},
+    "crumb": {
+      "restful": true
+    },
     "yar": {
       "cookieOptions": {
         "password": "yata-yata",
