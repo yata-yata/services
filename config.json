@@ -24,7 +24,8 @@
     "lout": {},
     "tv": {},
     "crumb": {
-      "restful": true
+      "restful": true,
+      "autoGenerate": false
     },
     "yar": {
       "cookieOptions": {
