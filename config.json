@@ -27,6 +27,7 @@
       "autoGenerate": false
     },
     "hapi-auth-hawk": {},
+    "bell": {},
     "auth": {
       "google": {
         "realm": "http://localhost:8000/",
