@@ -4,7 +4,7 @@
   "description": "Yata Services",
   "main": "index.js",
   "author": "",
-  "license": "MIT",
+  "license": "Artistic-2.0",
   "scripts": {
     "start": "./node_modules/foreman/nf.js start"
   },
