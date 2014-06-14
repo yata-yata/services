@@ -22,18 +22,10 @@
       }
     },
     "lout": {},
-    "tv": {},
     "crumb": {
       "restful": true,
       "autoGenerate": false
     },
-    "yar": {
-      "cookieOptions": {
-        "password": "yata-yata",
-        "isSecure": false
-      }
-    },
-    "travelogue": {},
     "hapi-auth-hawk": {},
     "auth": {
       "google": {
