@@ -19,6 +19,6 @@
     "todo": "git+https://github.com/yata-yata/todo.git",
     "tv": ">=1.1.1",
     "ui": "git+https://github.com/yata-yata/ui.git",
-    "yar": "^2.2.0"
+    "yar": "git+https://github.com/spumko/yar.git#hapi6.0"
   }
 }
