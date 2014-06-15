@@ -21,13 +21,17 @@
         "console": ["request", "log", "ops", "error"]
       }
     },
+    "yar": {
+      "cookieOptions": {
+          "password": "password",
+          "isSecure": false
+      }
+    },
     "lout": {},
     "crumb": {
       "restful": true,
       "autoGenerate": false
     },
-    "hapi-auth-hawk": {},
-    "bell": {},
     "auth": {
       "google": {
         "realm": "http://localhost:8000/",
