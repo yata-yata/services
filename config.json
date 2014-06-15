@@ -21,20 +21,17 @@
         "console": ["request", "log", "ops", "error"]
       }
     },
+    "yar": {
+      "cookieOptions": {
+          "password": "password",
+          "isSecure": false
+      }
+    },
     "lout": {},
-    "tv": {},
     "crumb": {
       "restful": true,
       "autoGenerate": false
     },
-    "yar": {
-      "cookieOptions": {
-        "password": "yata-yata",
-        "isSecure": false
-      }
-    },
-    "travelogue": {},
-    "hapi-auth-hawk": {},
     "auth": {
       "google": {
         "realm": "http://localhost:8000/",
