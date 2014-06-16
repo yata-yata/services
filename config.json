@@ -11,6 +11,12 @@
       "options": {
         "labels": ["api"]
       }
+    },
+    {
+      "port": 8002,
+      "options": {
+        "labels": ["admin"]
+      }
     }
   ],
   "plugins": {
@@ -21,28 +27,39 @@
         "console": ["request", "log", "ops", "error"]
       }
     },
-    "yar": {
-      "cookieOptions": {
+    "yar": [{
+      "select": ["http"],
+      "options": {
+        "cookieOptions": {
           "password": "password",
           "isSecure": false
+        }
       }
-    },
-    "lout": {},
-    "crumb": {
-      "restful": true,
-      "autoGenerate": false
-    },
+    }],
+    "lout": [{
+      "select": ["api"]
+    }],
+    "crumb": [{
+      "select": ["http"],
+      "options": {
+        "restful": true,
+        "autoGenerate": false
+      }
+    }],
     "auth": {
       "google": {
         "realm": "http://localhost:8000/",
         "callbackUrl": "http://localhost:8000/auth/google/callback"
       }
     },
-    "todo": {},
-    "ui": {
+    "todo": [{
+      "select": ["api"]
+    }],
+    "ui": [{
+      "select": ["http"],
+      "options": {
         "serviceUri": "http://localhost:8001"
-    }
+      }
+    }]
   }
 }
-
-
