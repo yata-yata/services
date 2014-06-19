@@ -17,7 +17,7 @@
     "hapi": ">=6.0.0",
     "lout": ">=3.1.0",
     "todo": "git+https://github.com/yata-yata/todo.git",
-    "tv": ">=1.1.1",
+    "tv": "git+https://github.com/spumko/tv.git",
     "ui": "git+https://github.com/yata-yata/ui.git",
     "yar": "^2.2.0"
   }

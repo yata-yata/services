@@ -11,12 +11,6 @@
       "options": {
         "labels": ["api"]
       }
-    },
-    {
-      "port": 8002,
-      "options": {
-        "labels": ["admin"]
-      }
     }
   ],
   "plugins": {
@@ -27,6 +21,7 @@
         "console": ["request", "log", "ops", "error"]
       }
     },
+    "tv": {},
     "yar": [{
       "select": ["http"],
       "options": {
