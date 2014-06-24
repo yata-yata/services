@@ -16,6 +16,7 @@
     "good": ">=2.0.0",
     "hapi": ">=6.0.0",
     "lout": ">=3.1.0",
+    "mobile-auth": "git+ssh://git@github.com:yata-yata/mobile-auth.git",
     "todo": "git+https://github.com/yata-yata/todo.git",
     "tv": "git+https://github.com/spumko/tv.git",
     "ui": "git+https://github.com/yata-yata/ui.git",
